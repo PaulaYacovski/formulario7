@@ -26,11 +26,8 @@
             return;
         }
         
-        if (!terminos && !nombre || !apellido || !email || !password1 || !password2 ) {
-           return showAlertError('Debe aceptar los términos y condiciones.');
-        } else {
-            return showAlertSuccess(`Datos guardados correctamente`);
-        }
+        showAlertSuccess();
+         
          };
 document.getElementById("regBtn").addEventListener("click", validarDatos); 
 
