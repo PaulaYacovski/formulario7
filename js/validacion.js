@@ -29,7 +29,7 @@
         showAlertSuccess();
          
          };
-document.getElementById("regBtn").addEventListener("click", validar); 
+document.getElementById("regBtn").addEventListener("click", validarDatos); 
 
 
 function showAlertSuccess() {
